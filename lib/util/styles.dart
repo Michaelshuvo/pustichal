@@ -1,0 +1,27 @@
+
+import 'package:flutter/material.dart';
+import 'package:pustichal/util/dimensions.dart';
+
+final robotoRegular = TextStyle(
+  fontFamily: 'Poppins',
+  fontWeight: FontWeight.w400,
+  fontSize: Dimensions.fontSizeDefault,
+);
+
+final robotoMedium = TextStyle(
+  fontFamily: 'Poppins',
+  fontWeight: FontWeight.w500,
+  fontSize: Dimensions.fontSizeDefault,
+);
+
+final robotoBold = TextStyle(
+  fontFamily: 'Poppins',
+  fontWeight: FontWeight.w600,
+  fontSize: Dimensions.fontSizeDefault,
+);
+
+final robotoBlack = TextStyle(
+  fontFamily: 'Poppins',
+  fontWeight: FontWeight.w800,
+  fontSize: Dimensions.fontSizeDefault,
+);
